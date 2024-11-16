@@ -23,3 +23,12 @@ ncurses.mli was renamed to ./lib/ncurses.mli
 I need a self contained example that replicates the example from ocamnl-ctypes
 
 I guess I need to edit the dune files.
+
+** running it
+I can run the ncurses example in the following way
+
+#+begin_example
+cd ./ncforeign/
+dune build
+dune exec ./_build/default/bin/main.exe
+#+end_example
