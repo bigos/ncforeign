@@ -16,6 +16,7 @@ https://github.com/yallop/ocaml-ctypes/tree/master/examples/ncurses/foreign
 ncurses_cmd.ml was renamed to ./bin/main.ml
 
 ncurses.ml was renamed to ./lib/ncurses.ml
+
 ncurses.mli was renamed to ./lib/ncurses.mli
 
 ** What I need to do
