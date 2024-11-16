@@ -1,0 +1,6 @@
+(executable
+ (public_name ncforeign)
+ (name main)
+ (link_flags
+  (:standard -cclib -lncurses))
+ (libraries ncurses))

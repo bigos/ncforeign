@@ -1,0 +1,4 @@
+(library
+ (name ncurses)
+ (modules ncurses)
+ (libraries ctypes-foreign))
