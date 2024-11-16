@@ -1,0 +1,24 @@
+* Readme
+
+** Reddit discussion
+https://www.reddit.com/r/ocaml/comments/1gs8ibv/comment/lxf3w06/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
+** What I did
+Following the discussion, I attempted to create a new project
+
+#+begin_example
+opam exec -- dune init proj ncforeign
+#+end_example
+
+and copied and renamed the files from the example from:
+https://github.com/yallop/ocaml-ctypes/tree/master/examples/ncurses/foreign
+
+ncurses_cmd.ml was renamed to ./bin/main.ml
+
+ncurses.ml was renamed to ./lib/ncurses.ml
+ncurses.mli was renamed to ./lib/ncurses.mli
+
+** What I need to do
+I need a self contained example that replicates the example from ocamnl-ctypes
+
+I guess I need to edit the dune files.
