@@ -30,5 +30,5 @@ I can run the ncurses example in the following way
 #+begin_example
 cd ./ncforeign/
 dune build
-dune exec ./_build/default/bin/main.exe
+dune exec ncforeign
 #+end_example
